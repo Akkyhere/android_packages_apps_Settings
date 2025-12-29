@@ -12,4 +12,13 @@
         android:title="@string/keybox_data_title"
         android:summary="@string/keybox_data_summary" />
 
+   <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="advanced_reboot_category">
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/global_actions_advanced_reboot_title"
+            android:summary="@string/global_actions_advanced_reboot_summary"
+            android:defaultValue="false" />
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
+
 </PreferenceScreen>
