@@ -360,4 +360,7 @@
     <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
     <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
     <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
+
+    <!-- Pixel Maintainer -->
+    <string name="pixel_maintainer">Maintainer</string>
 </resources>
