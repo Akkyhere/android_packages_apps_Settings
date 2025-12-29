@@ -363,4 +363,10 @@
 
     <!-- Pixel Maintainer -->
     <string name="pixel_maintainer">Maintainer</string>
+
+    <!-- Akky's Magic Sub-section for advance sutomization -->
+    <string name="akkys_magic_title">Akky’s Magic</string>
+    <string name="akkys_magic_summary">Advanced system customization</string>
+    <string name="menu_key_akkys_magic">akkys_magic</string>
+
 </resources>

@@ -51,6 +51,15 @@
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
+    android:fragment="com.android.settings.akkysmagic.AkkysMagicSettings"
+    android:icon="@drawable/ic_akkys_magic"
+    android:key="top_level_akkys_magic"
+    android:order="-135"
+    android:title="@string/akkys_magic_title"
+    android:summary="@string/akkys_magic_summary"
+    settings:highlightableMenuKey="@string/menu_key_akkys_magic"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.applications.AppDashboardFragment"
         android:icon="@drawable/ic_apps"
         android:key="top_level_apps"

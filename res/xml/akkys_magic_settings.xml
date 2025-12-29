@@ -1,0 +1,15 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/akkys_magic_title">
+
+    <com.android.settings.development.PifDataPreference
+        android:key="pif_data_setting"
+        android:title="@string/pif_data_title"
+        android:summary="@string/pif_data_summary" />
+
+    <com.android.settings.development.KeyboxDataPreference
+        android:key="keybox_data_setting"
+        android:title="@string/keybox_data_title"
+        android:summary="@string/keybox_data_summary" />
+
+</PreferenceScreen>

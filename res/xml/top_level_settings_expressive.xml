@@ -48,6 +48,20 @@
             settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
     </com.android.settingslib.widget.UntitledPreferenceCategory>
 
+        <com.android.settingslib.widget.UntitledPreferenceCategory
+    android:order="-125"
+    android:key="top_level_akkys_magic_category">
+
+    <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.akkysmagic.AkkysMagicSettings"
+        android:icon="@drawable/ic_akkys_magic"
+        android:key="top_level_akkys_magic"
+        android:order="-10"
+        android:title="@string/akkys_magic_title"
+        android:summary="@string/akkys_magic_summary"
+        settings:highlightableMenuKey="@string/menu_key_akkys_magic"/>
+</com.android.settingslib.widget.UntitledPreferenceCategory>
+
     <com.android.settingslib.widget.UntitledPreferenceCategory
         android:order="-120"
         android:key="top_level_personalize_category">
